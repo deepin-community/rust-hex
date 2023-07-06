@@ -4,19 +4,39 @@ Upstream-Contact: KokaKiwi <kokakiwi@kokakiwi.net>
 Source: https://github.com/KokaKiwi/rust-hex
 
 Files: *
-Copyright:
- 2015-2020 KokaKiwi <kokakiwi@kokakiwi.net>
- 2015-2020 The rust-hex Developers
- 2013-2014 The Rust Project Developers
+Copyright: FIXME (overlay) UNKNOWN-YEARS KokaKiwi <kokakiwi@kokakiwi.net>
 License: MIT or Apache-2.0
+Comment:
+ FIXME (overlay): Since upstream copyright years are not available in
+ Cargo.toml, they were extracted from the upstream Git repository. This may not
+ be correct information so you should review and fix this before uploading to
+ the archive.
+
+Files: ./LICENSE-MIT
+Copyright:
+ 2013-2014 The Rust Project Developers.
+ 2015-2020 The rust-hex Developers
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/lib.rs
+Copyright:
+ 2013-2014 The Rust Project Developers.
+ 2015-2020 The rust-hex Developers.
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
 
 Files: debian/*
 Copyright:
- 2018-2021 Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018-2021 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
  2018-2021 Ximin Luo <infinity0@debian.org>
 License: MIT or Apache-2.0
 
-License:  Apache-2.0
+License: Apache-2.0
  Debian systems provide the Apache 2.0 license in
  /usr/share/common-licenses/Apache-2.0
 
